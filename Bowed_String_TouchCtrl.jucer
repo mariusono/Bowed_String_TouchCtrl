@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="dhTDdE" name="Bowed_String_TouchCtrl" projectType="guiapp"
+              useAppConfig="1" addUsingNamespaceToJuceHeader="1" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="MUo227" name="Bowed_String_TouchCtrl">
+    <GROUP id="{688F37FA-3C70-CD3B-A673-03BAE75D79D4}" name="Source">
+      <FILE id="IQIHE4" name="SenselWrapper.h" compile="0" resource="0" file="Source/SenselWrapper.h"/>
+      <FILE id="zeZoKD" name="ViolinString.cpp" compile="1" resource="0"
+            file="Source/ViolinString.cpp"/>
+      <FILE id="BU8w7s" name="ViolinString.h" compile="0" resource="0" file="Source/ViolinString.h"/>
+      <FILE id="E1VF1e" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="igwmPI" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="i7dWWt" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bowed_String_TouchCtrl"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bowed_String_TouchCtrl"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bowed_String_TouchCtrl"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bowed_String_TouchCtrl"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bowed_String_TouchCtrl"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bowed_String_TouchCtrl"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Staff Projects/Silvin/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
